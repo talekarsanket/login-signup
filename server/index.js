@@ -13,5 +13,5 @@ app.use("/authRoute", varifyToken);
 
 app.listen(8000, () => {
     console.log("server running on 8000");
-    Dbconnection;
+    Dbconnection();
 });
