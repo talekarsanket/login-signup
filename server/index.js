@@ -11,7 +11,7 @@ app.use("/", router);
 app.use("/authRoute", varifyToken);
 
 
-app.listen(8000, () => {
+app.listen(8000, async () => {
+    await connect();
     console.log("server running on 8000");
-    connect();
 });
