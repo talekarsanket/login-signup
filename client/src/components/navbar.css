@@ -1,0 +1,25 @@
+/* Navigation bar styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333; /* Background color for the navbar */
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  
+  /* NavLink styles */
+  .navbar a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove default underline */
+    padding: 8px 15px; /* Add padding for each link */
+    border-radius: 5px; /* Add border radius for a button-like effect */
+  
+    /* Change color on hover */
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #555; /* Darker shade on hover */
+  }
+  

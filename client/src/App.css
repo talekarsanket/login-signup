@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Apply basic styling to the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the h1 in the header */
+h1 {
+    margin: 0;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Style paragraphs in the main section */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}

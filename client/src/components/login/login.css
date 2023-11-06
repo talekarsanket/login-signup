@@ -1,0 +1,67 @@
+.body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #FB37FF, #18B2DE);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin: 0;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 300px;
+  position: relative;
+}
+
+.form-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+input:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #3498db;
+}
+
+/* LoginForm.css */
+
+/* Button styles */
+button#login-button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  background: #3498db;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button#login-button:hover {
+  background: #2980b9;
+}
