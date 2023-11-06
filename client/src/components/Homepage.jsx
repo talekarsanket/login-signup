@@ -19,7 +19,7 @@ const Homepage = () => {
                 const token = getCookieValue('token');
                 console.log("token", token);
 
-                const fetchauth = await fetch("http://localhost:8000/authRoute", {
+                const fetchauth = await fetch("https://login-signup-server-6vyn.onrender.com/authRoute", {
                     method: "GET",
                     headers: {
                         Authorization: `Bearer ${token}`,

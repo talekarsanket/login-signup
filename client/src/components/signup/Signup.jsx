@@ -16,7 +16,7 @@ const Signup = () => {
         e.preventDefault();
         try {
             setLoading(true)
-            const fetchData = await fetch('http://localhost:8000/signup', {
+            const fetchData = await fetch('https://login-signup-server-6vyn.onrender.com/signup', {
                 method: 'POST',
                 headers: {
                     'Content-type': 'application/json',

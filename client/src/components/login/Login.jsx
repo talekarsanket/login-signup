@@ -17,7 +17,7 @@ const Login = () => {
         try {
             setLoading(true);
 
-            let fetchData = await fetch("http://localhost:8000/login", {
+            let fetchData = await fetch("https://login-signup-server-6vyn.onrender.com/login", {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json",
