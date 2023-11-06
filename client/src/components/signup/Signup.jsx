@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './signup.css';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { Audio, FallingLines, RotatingLines } from 'react-loader-spinner'
 
 const Signup = () => {
@@ -79,7 +79,7 @@ const Signup = () => {
                             </div>
                             <button type="submit" className="btn">Sign up</button>
                             <p> Already have an account?
-                                <a href="/login">Login</a>
+                                <NavLink href="/login">Login</NavLink>
                             </p>
                         </form>
                     </div>}
