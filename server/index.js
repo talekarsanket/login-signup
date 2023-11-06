@@ -1,5 +1,5 @@
 const express = require("express");
-const Dbconnection = require("./database/connection");
+const connect = require("./database/connection");
 const router = require("./router/controllers");
 const varifyToken = require("./authentication/varifyToken");
 const cors = require("cors");
@@ -13,5 +13,5 @@ app.use("/authRoute", varifyToken);
 
 app.listen(8000, () => {
     console.log("server running on 8000");
-    Dbconnection();
+    connect();
 });
