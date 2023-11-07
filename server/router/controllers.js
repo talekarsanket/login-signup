@@ -6,9 +6,9 @@ require("dotenv").config();
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-    return res.send("controller route");
-});
+// router.get("/", (req, res) => {
+//     return res.send("controller route");
+// });
 
 
 router.post("/signup", async (req, res) => {

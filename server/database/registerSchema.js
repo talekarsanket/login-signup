@@ -18,11 +18,7 @@ const DbSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
-    },
-    // token: {
-    //     type: String,
-    //     required: true
-    // }
+    }
 });
 
 const Register = mongoose.model("Register", DbSchema);
