@@ -6,10 +6,6 @@ require("dotenv").config();
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-    return res.send("controller route");
-});
-
 
 router.post("/signup", async (req, res) => {
     try {
@@ -50,6 +46,7 @@ router.post("/signup", async (req, res) => {
         console.log("error in signup route----", error);
     }
 });
+
 
 router.post('/login', async (req, res) => {
     console.log("Inside login route");

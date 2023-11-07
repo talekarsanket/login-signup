@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors())
 app.use("/", router);
-app.use("/authRoute", varifyToken);
+app.use("/auth_route", varifyToken);
 
 
 app.listen(8000, async () => {
